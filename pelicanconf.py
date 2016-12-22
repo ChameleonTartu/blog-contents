@@ -6,6 +6,8 @@ AUTHOR = 'Chris Cronin'
 SITENAME = "Chris's Blog"
 SITEURL = ''
 
+THEME = '/Users/Cronin/pelican-themes/aboutwilson'
+
 PATH = 'content'
 
 TIMEZONE = 'America/Los_Angeles'
