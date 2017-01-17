@@ -32,7 +32,7 @@ SOCIAL = (('LinkedIn',  'https://www.linkedin.com/in/cvcronin'),
           ('Angelist', 'https://angel.co/ccronin'),
           ('Twitter', 'https://twitter.com/cvcronin'),
           ('DodgeStreetVentures', 'http://www.dodgestreetventures.com/'),
-          ('Github', 'https://github.com/ccronin51')
+          ('Github', 'https://github.com/ccronin51'))
 
 DEFAULT_PAGINATION = 10
 
