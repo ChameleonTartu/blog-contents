@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Chris Cronin'
-SITENAME = "Chris's Blog"
+SITENAME = "Chris' Blog"
 SITEURL = ''
 
 THEME = '/Users/Cronin/pelican-themes/elegant'
@@ -28,8 +28,11 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('LinkedIn',  'https://www.linkedin.com/in/cvcronin'),
+          ('Angelist', 'https://angel.co/ccronin'),
+          ('Twitter', 'https://twitter.com/cvcronin'),
+          ('DodgeStreetVentures', 'http://www.dodgestreetventures.com/'),
+          ('Github', 'https://github.com/ccronin51')
 
 DEFAULT_PAGINATION = 10
 
