@@ -6,7 +6,7 @@ AUTHOR = 'Chris Cronin'
 SITENAME = "Chris' Blog"
 SITEURL = ''
 
-THEME = '/Users/Cronin/pelican-themes/flex'
+THEME = '/Users/Cronin/pelican-themes/Flex'
 
 PATH = 'content'
 
