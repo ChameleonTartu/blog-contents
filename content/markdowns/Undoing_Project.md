@@ -4,7 +4,7 @@ Modified: 2016-07-25 08:00
 Category: Readings
 Tags: Books
 Slug: oled-display-i2c-with-bananapi
-Cover: images/profshot.png
+Cover: '/images/dodgest_logo3.jpg'
 
 Today we're going to connect an OLED display on Banana Pi/Banana Pro throught I²C. These displays are very small, but very readable due to the high contrast.
 
