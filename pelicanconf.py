@@ -10,8 +10,6 @@ SITESUBTITLE = 'MBA & Machine Learning Engineer'
 SITELOGO = SITEURL + '/images/profshot.jpg'
 FAVICON = SITEURL + '/images/dodgest_logo3.jpg'
 
-
-
 THEME = '/Users/Cronin/pelican-themes/Flex-master'
 
 PATH = 'content'
@@ -35,12 +33,10 @@ MENUITEMS = (('Archives', '/archives.html'),
              ('Tags', '/tags.html'),)
 
 # Blogroll
-LINKS = (('Angelist', 'https://angel.co/ccronin'),
-         ('Investing', 'http://www.dodgestreetventures.com/'),)
+LINKS = (('Investing', 'http://www.dodgestreetventures.com/'),)
 
 # Social widget
 SOCIAL = (('linkedin',  'https://www.linkedin.com/in/cvcronin'),
-          ('twitter', 'https://twitter.com/cvcronin'),
           ('github', 'https://github.com/ccronin51'),)
 
 
