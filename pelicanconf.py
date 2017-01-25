@@ -5,6 +5,8 @@ from __future__ import unicode_literals
 AUTHOR = 'Chris Cronin'
 SITENAME = "Chris' Blog"
 SITEURL = ''
+SITELOGO = SITEURL + 'theme/images/profshot.jpg'
+FAVICON = SITEURL + '/images/dodgest_logo3.jpg'
 
 THEME = '/Users/Cronin/pelican-themes/Flex-master'
 
@@ -21,23 +23,30 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+USE_FOLDER_AS_CATEGORY = False
+MAIN_MENU = True
+
+MENUITEMS = (('Archives', '/archives.html'),
+             ('Categories', '/categories.html'),
+             ('Tags', '/tags.html'),)
+
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Angelist', 'https://angel.co/ccronin'),
+         ('Investing', 'http://www.dodgestreetventures.com/'),)
 
 # Social widget
-SOCIAL = (('LinkedIn',  'https://www.linkedin.com/in/cvcronin'),
-          ('Angelist', 'https://angel.co/ccronin'),
-          ('Twitter', 'https://twitter.com/cvcronin'),
-          ('DodgeStreetVentures', 'http://www.dodgestreetventures.com/'),
-          ('Github', 'https://github.com/ccronin51'))
+SOCIAL = (('linkedin',  'https://www.linkedin.com/in/cvcronin'),
+          ('twitter', 'https://twitter.com/cvcronin'),
+          ('github', 'https://github.com/ccronin51'))
+
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Enable Jinja2 i18n extension used to parse translations.
+JINJA_ENVIRONMENT = ['jinja2.ext.i18n']
 
 MARKUP = ('md', 'ipynb')
 
