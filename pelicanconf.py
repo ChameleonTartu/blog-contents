@@ -5,7 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Chris Cronin'
 SITENAME = "Chris' Blog"
 SITEURL = ''
-SITELOGO = SITEURL + 'theme/images/profshot.jpg'
+SITELOGO = SITEURL + '/images/profshot.jpg'
 FAVICON = SITEURL + '/images/dodgest_logo3.jpg'
 
 THEME = '/Users/Cronin/pelican-themes/Flex-master'
