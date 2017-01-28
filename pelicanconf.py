@@ -33,7 +33,7 @@ MENUITEMS = (('Archives', '/archives.html'),
              ('Tags', '/tags.html'),)
 
 # Blogroll
-LINKS = (('Investing', 'http://www.dodgestreetventures.com/'),)
+LINKS = ()
 
 # Social widget
 SOCIAL = (('linkedin',  'https://www.linkedin.com/in/cvcronin'),
