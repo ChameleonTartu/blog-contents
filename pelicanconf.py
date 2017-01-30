@@ -28,12 +28,13 @@ AUTHOR_FEED_RSS = None
 USE_FOLDER_AS_CATEGORY = False
 MAIN_MENU = True
 
-MENUITEMS = (('Archives', '/archives.html'),
+MENUITEMS =  (('Projects','/category/projects.html'),
+             ('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
              ('Tags', '/tags.html'),)
 
 # Blogroll
-LINKS = ()
+LINKS = (('Projects','/category/projects.html'))
 
 # Social widget
 SOCIAL = (('linkedin',  'https://www.linkedin.com/in/cvcronin'),
