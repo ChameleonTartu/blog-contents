@@ -1,8 +1,4 @@
 Title: Education
 
-Here you can find information related to the projects i have worked on.
+Coming Soon
 ---------
-
-### WeatherStation
-
-a piece of good stuff
