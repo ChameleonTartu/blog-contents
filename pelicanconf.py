@@ -51,5 +51,5 @@ JINJA_ENVIRONMENT = ['jinja2.ext.i18n']
 
 MARKUP = ('md', 'ipynb')
 
-PLUGIN_PATH = './plugins'
+PLUGIN_PATHS = './plugins'
 PLUGINS = ['ipynb.markup']
