@@ -28,17 +28,17 @@ AUTHOR_FEED_RSS = None
 USE_FOLDER_AS_CATEGORY = False
 MAIN_MENU = True
 
-MENUITEMS =  (('Projects','/category/projects.html'),
+MENUITEMS = (('Projects','/category/projects.html'),
              ('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
              ('Tags', '/tags.html'),)
 
 # Blogroll
-LINKS = (('Projects','/category/projects.html'))
+LINKS = (('Projects','/category/projects.html'),)
 
 # Social widget
 SOCIAL = (('linkedin',  'https://www.linkedin.com/in/cvcronin'),
-          ('github', 'https://github.com/ccronin51'),)
+          ('github', 'https://github.com/ccronin51'))
 
 
 DEFAULT_PAGINATION = 10
