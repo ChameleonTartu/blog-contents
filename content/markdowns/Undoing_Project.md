@@ -6,6 +6,5 @@ Tags: Books
 Slug: Sample-Markdown
 Cover: images/dodgest_logo3.jpg
 
-![](images/profshot?raw=true)
 
 This is a sample markdown
