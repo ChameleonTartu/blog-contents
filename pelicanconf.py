@@ -34,7 +34,8 @@ MENUITEMS = (('Projects','/category/projects.html'),
              ('Tags', '/tags.html'),)
 
 # Blogroll
-LINKS = (('Projects','/category/projects.html'),)
+LINKS = (('Projects','/category/projects.html'),
+         ('Investing','http://www.dodgestreetventures.com/'))
 
 # Social widget
 SOCIAL = (('linkedin',  'https://www.linkedin.com/in/cvcronin'),
